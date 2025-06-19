@@ -79,55 +79,54 @@
                 
       </table>
       <hr>
+      <hr>
       <h3>HAVE YOUR OWN NAME ON YOUR JERSEYS</h3>
          <h5>Fill the below details and order your favorite Jersey</h5>
       <p>
-         <form action="">
-          <p>Enter the name printed on Jersey</p><input type="text"  minlength="4" maxlength="12"required>
-         </form>
-         <form action="">
-          <p>Enter the number to be printed on jersey :</p><input type="number" min="1" maxlength="3"required>
-         </form>
-     
-         <form action=""required>
-         <p><h5>In which color the name and number to be printed</h5></p>
-         <input type="radio" name="color" id="Black"><label for="Black">Black</label>
-         <input type="radio" name="color" id="Green"><label for="Green">Green</label>
-         <input type="radio" name="color" id="White"><label for="White">White</label>
-           
-         </form>
-      </p>
-      <p>Enter your jersey size
-         <form action="">
-           <input type="radio" name="size" id="s"required> <label  for="s">S</label>
-           <input type="radio" name="size" id="l"required> <label for="l">L</label>
-           <input type="radio" name="size" id="xl"required> <label for="xl">XL</label>
-           <input type="radio" name="size" id="xxl"required> <label for="xxl">XXL</label>
-          </form>
-      </p>
-      
-      <p>Select the payment method</p>
-      <form action="">
-        <input type="radio" name="payment" required id="Gpay"> <label for="Gpay">Gpay</label>
-        <input type="radio" name="payment" required id="Phonepe"> <label for="Phonepe">Phonepe</label>
-        <input type="radio" name="payment" required id="Patym"> <label for="Patym">Paytm</label>
-        <p>NO CASH ON DELIVERY AVAILABLE</p>
-      </form>
-      <hr>
-      <p>Customer deatils
-         <form action="">
-           <label for="">Customer's name</label><input type="text" required>
-         </form>
-         <form action="">
-            <label for="">Enter email</label><input type="email" required>
-         </form>
-         <form action="">
-           <label for="">Conatck number</label><input type=""required>
-         </form>
-        </p>
-      <form action="">Click the butten to submit
-        <input type="submit">
-      </form>
+        <form>
+  
+  
+ 
+
+  <label for="name">Customised  Name to be printed:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="number">jersey number to be printed:</label>
+  <input type="number" id="number" min="1" max="999"  name="number" required><br><br>
+
+  <label for="contact">Contact Number:</label>
+  <input type="tel" id="contact" name="contact" required pattern="[0-9]{10}" title="Enter a 10-digit number"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<hr>
+<hr>
+ <p>Customer details</p>
+       <form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" required><br><br>
+
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender" required>
+    <option value="">Select</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select><br><br>
+
+  <label for="bio">Bio:</label>
+  <textarea id="bio" name="bio" required></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+
  </body>
  <HR></HR>
  <HR></HR>
